@@ -271,9 +271,10 @@ h3#redirect {
 
     h3 {
       max-width: 300px;
-      top: 30%;
+      top: 35%;
     }
     #back {
+    display: none;
     color: rgb(222, 219, 215);
     font-family: "Moderat-Regular";
     position: absolute;
