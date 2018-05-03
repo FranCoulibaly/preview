@@ -189,7 +189,7 @@ h3#redirect {
     top: 60%;
     margin: 0 auto;
     /*left: 50%;*/
-    transform: translate(-50%);
+    transform: translate(-52%);
     max-width: 300px;
     font-size: 12px;
 	}
@@ -243,19 +243,6 @@ h3#redirect {
     padding-top: 15px;
   }
 
-  h3#redirect {
-  font-family: "Moderat-Regular";
-  font-size: 14px;
-  color: rgb(222, 219, 215);
-  width: 400px;
-  position: absolute;
-  line-height: 20px;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: center;
-}
-
 }
 
 @media only screen and (max-device-width: 320px) {
@@ -272,7 +259,7 @@ h3#redirect {
 
     h3 {
       max-width: 300px;
-      top: 36%;
+      top: 40%;
     }
     #back {
     display: none;
@@ -288,10 +275,10 @@ h3#redirect {
 
   form {
     position: absolute;
-    top: 64%;
+    top: 68%;
     margin: 0 auto;
     /*left: 50%;*/
-    transform: translate(-50%);
+    transform: translate(-52%);
     max-width: 300px;
     font-size: 12px;
   }
