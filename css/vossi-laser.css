@@ -259,7 +259,7 @@ h3#redirect {
 
     h3 {
       max-width: 300px;
-      top: 40%;
+      top: 41%;
     }
     #back {
     display: none;
@@ -275,11 +275,11 @@ h3#redirect {
 
   form {
     position: absolute;
-    top: 68%;
+    top: 69%;
     margin: 0 auto;
     /*left: 50%;*/
-    transform: translate(-52%);
-    max-width: 300px;
+    transform: translate(-60%);
+    max-width: 250px;
     font-size: 12px;
   }
   #submit {
