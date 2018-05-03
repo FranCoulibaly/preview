@@ -186,7 +186,7 @@ h3#redirect {
 
 	form {
     position: absolute;
-    top: 54%;
+    top: 50%;
     margin: 0 auto;
     /*left: 50%;*/
     transform: translate(-50%);
@@ -228,7 +228,7 @@ h3#redirect {
     max-width: 300px; 
     max-height: 162px;
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%);
     text-align: justify;
