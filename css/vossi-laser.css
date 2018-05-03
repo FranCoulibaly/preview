@@ -304,6 +304,17 @@ h3#redirect {
     position: absolute;
 		top: 68%;
 	}
+    #back {
+    display: none;
+    color: rgb(222, 219, 215);
+    font-family: "Moderat-Regular";
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    width: 100px;
+    transform: translate(-15%);
+    font-size: 12px;
+    }
 
 	
 }
