@@ -197,7 +197,7 @@ h3#redirect {
   .contact-info input {
     height: 35px;
     font-size: 12px;
-    /*padding: 16px; */
+    padding: 0; 
   }
   ul.interestgroup_field.checkbox-group {
     padding-left: 0;
