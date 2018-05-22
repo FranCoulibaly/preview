@@ -99,11 +99,8 @@ li {
   list-style: none;
 }
 #submit {
-  text-align: center;
-  position: relative;
-  font-family: "Moderat-Bold";
-    padding: 6px 120px;
-    width: 100px;
+    position: relative;
+    font-family: "Moderat-Bold";
     height: 35px;
     font-size: 14px;
     background-color: transparent;
@@ -113,7 +110,7 @@ li {
     border: none;
     left: 65%;
     top: 80px;
-}
+  }
 
 /*#submit:hover {
    color: rgb(185,0,60);
