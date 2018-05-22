@@ -110,6 +110,7 @@ li {
     border: none;
     left: 65%;
     top: 80px;
+    padding: 0;
   }
 
 /*#submit:hover {
