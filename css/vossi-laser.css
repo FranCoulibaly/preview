@@ -90,7 +90,7 @@ input:focus {
   transform: translate(-50%,-50%);
 }
 
-.container .checkmark.black:after {
+/*container .checkmark.black:after {
   left: 1px;
   width: 13px;
   height: 13px;
@@ -99,7 +99,7 @@ input:focus {
   top: .5px;
   right: .5px;
   bottom: .5px;
-}
+}*/
 
 .contact-info input{
   display: flex;
