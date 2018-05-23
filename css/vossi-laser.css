@@ -24,6 +24,82 @@ body {
 input:focus {
   outline: 0;
 }
+.container {
+  display: block;
+  position: relative;
+  /*margin-bottom: 12px;*/
+  padding-left: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 20px;
+
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  border-radius: 50%;
+  /*border: solid black;*/
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;  
+  background-color: #eee;
+  clear: both;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: white;
+
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: black;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container .checkmark.black:after {
+  left: 1px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: black;
+  top: .5px;
+  right: .5px;
+  bottom: .5px;
+}
 
 .contact-info input{
   display: flex;
@@ -76,6 +152,7 @@ form .framesize {
 
 ul li { 
   display: inline-block; 
+
 }
 
 ul.interestgroup_field.checkbox-group {
